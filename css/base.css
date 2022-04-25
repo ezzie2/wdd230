@@ -17,7 +17,6 @@ header, main, footer {
 
 header, footer {
     margin: 1rem auto;
-    border: 1px solid rgb(133, 208, 208);
     padding: .5rem;
     background-color: rgb(72, 83, 241);
     display: grid;
@@ -31,7 +30,6 @@ header, footer {
 
 header img {
     width: 100%;
-    height: auto;
     padding: 10px;
     border-radius: 50px ;
 }
