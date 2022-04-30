@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+
+header, main, footer {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+header, footer {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: #54426B;
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+
+/*Class selectors*/
+.column_items h2 {
+   background-color: #a493b8;
+   color: white;
+   font-weight: 10px;
+    
+}
+
+.column_items {
+   padding: 20px;
+   background-color: #E9F1F7;
+   box-sizing: border-box;
+   border: 1px solid lightslategray;
+   border-radius: 3px;
+   margin: 5px;
+}
+
+
+
