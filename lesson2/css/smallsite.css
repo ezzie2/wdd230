@@ -7,11 +7,12 @@
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
+    padding: 10px;
 }
 
 
 header, main, footer {
-    max-width: 800px;
+    max-width: 750px;
     margin: 0 auto; 
 }
 
@@ -25,25 +26,29 @@ header, footer {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    /* grid-template-columns: 1fr;  */
 }
 
+h2, p, a, img {
+    padding: 10px;
+}
 
 /*Class selectors*/
 .column_items h2 {
-   background-color: #a493b8;
-   color: white;
-   font-weight: 600;
-    
+    background-color:  #54426B;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px; 
+    color: white; 
 }
 
+
 .column_items {
-   padding: 20px;
+   /* padding: 4px; */
    background-color: #E9F1F7;
-   box-sizing: border-box;
    border: 1px solid lightslategray;
-   border-radius: 3px;
-   margin: 5px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   margin: 15px;
 }
 
 

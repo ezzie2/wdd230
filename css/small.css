@@ -5,44 +5,48 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 10px;
     font-family: 'Padauk', sans-serif;
     background-color: rgb(231, 236, 236);
 }
 
 header, main, footer {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 560px;
+    margin: 0 auto; 
 }
 
 header, footer {
     margin: 1rem auto;
     padding: .5rem;
     background-color: rgb(72, 83, 241);
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 200px 1fr;
     align-items: center;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     box-shadow: 5px 5px 5px 5px rgb(173, 170, 170);
+    text-align: center;
     
 }
 
 
 header img {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50px ;
 }
 
 h1 {
-    padding: 38px;
+    padding: 8px;
     color: white;
+    font-family: 'Merienda', cursive;
+    
+    
 }
 
 ul {
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
-    padding: 20px;
+    padding: 25px;
 }
 footer {
     grid-template-columns: 1fr;
