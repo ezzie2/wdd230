@@ -12,7 +12,7 @@ body {
 
 
 header, main, footer {
-    max-width: 750px;
+    max-width: 900px;
     margin: 0 auto; 
 }
 
@@ -22,6 +22,7 @@ header, footer {
     background-color: #54426B;
     color: white;
     font-size: 20px;
+
 }
 
 main {
@@ -49,6 +50,10 @@ h2, p, a, img {
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
    margin: 15px;
+}
+
+.column_items img {
+    width: 100%;
 }
 
 
