@@ -2,47 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     background-color: #FBFEF9;
     font-family: 'Sansita', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
+    
 
-}
-
-main {
-    margin: 10px;
 }
 
 header {
     font-family: 'Krub', sans-serif;
 }
 
-ul {
-    list-style-type: none;
+main {
+    margin: 10px;
+    padding: 5px;
 
 }
 
-nav {
-    background-color: antiquewhite;
+
+nav ul {
+    list-style-type: none; 
 }
+
+
 nav ul li a {
-    display: flex;
+    display: block; 
     padding: 10px;
+    font-size: 18px;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
-    justify-content: center;
+    justify-content: center; 
 }
 
 a {
-    color: black;
+    color: white;
 }
 
 a:hover {
     background-color: white;
+    color: black;
+    font-weight: 350;
 }
+
 h1 {
     font-family: 'Laila', sans-serif;
     font-size: 45px;
