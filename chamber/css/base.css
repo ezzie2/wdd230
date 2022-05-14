@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFEF9;
+    font-family: 'Sansita', sans-serif;
+    font-size: 17px;
+    
+
+}
+
+header {
+    font-family: 'Krub', sans-serif;
+    font-size: 12px;
+    display: grid;
+    align-items: center;
+}
+
+header p {
+    grid-column: span 5;
+    text-align: center;
+    background-color: rgb(25, 77, 109);
+    padding: 5px;
+}
+
+nav {
+    grid-row: 1;
+    grid-column: 5;
+}
+
+nav button {
+   
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+nav ul.open {display: block}
+
+nav ul li a {
+    display: block;
+    padding: 5px 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,.5);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+
+header, footer {
+    background-color: #0C6291;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    padding: 10px;
+}
+
+footer {
+    font-family: 'Sansita', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+/*-------------------CLASS SELECTORS----------------*/
+
+.blocks {
+    display: grid;
+    margin: 10px;
+    gap: 10px;
+}
+
+.blocks div{
+    border: 1px solid rgba(0,0,0,.5);
+    padding: 40px;
+}
+
+
+
+.social-media img  {
+    width: 30px;
+    grid-column: 4;
+    grid-row: 1;
+
+}
+
+
+/*-----id-----*/
+
+/* 
+#spotlights {
+    display:grid;
+    
+    
+} */
+
+
