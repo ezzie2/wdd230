@@ -81,6 +81,11 @@ footer {
     
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /*-------------------CLASS SELECTORS----------------*/
 
 .blocks {
