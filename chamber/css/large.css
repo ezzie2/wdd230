@@ -67,6 +67,10 @@
         width: 100%;
     }
 
+    #extra {
+        display: block;
+    }
+
     #join {
         grid-column: 1/2;
         grid-row: 3;
