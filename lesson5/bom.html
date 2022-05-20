@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <meta
+      name="description"
+      content="Through this DOM Manipulation users are able to enter their favorite Book of Mormon chapters and stores them in a list"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>📘 Book of Mormon - Top 25</h1>
+    <main>
+      <div class="input">
+        <label
+          >Enter Book and Chapter<br />
+          <input type="text" id="favchap" placeholder="Alma 5" required
+        /></label>
+        <button type="submit">Add Chapter</button>
+      </div>
+      <div class="listcontainer">
+        <ul class="list"></ul>
+
+        <script src="js/script.js"></script>
+      </div>
+    </main>
+  </body>
+</html>
