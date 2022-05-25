@@ -5,6 +5,11 @@ const input = document.querySelector('input');
 const button = document.querySelector('button');
 
 button.addEventListener('click', function() {
+    if (input.value == null || input.value == '') {
+        input.focus();
+        return false;
+    }
+
     const myItem = input.value;
     input.value = '';
 
