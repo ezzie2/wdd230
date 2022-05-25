@@ -1,7 +1,7 @@
 function displayBanner() {
     banner = document.getElementById("banner")
 
-    date = new Date()
+    let date = new Date()
     ad = date.getDay()
 
  
@@ -9,7 +9,9 @@ function displayBanner() {
         banner.style.display = "block"
     } else {
         banner.style.display = "none"
-}
-    console.log(ad);
+    }
+
 
 }
+
+displayBanner()
