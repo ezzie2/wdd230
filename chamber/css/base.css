@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 
 body {
     background-color: #FBFEF9;
     font-family: 'Sansita', sans-serif;
     font-size: 17px;
-    
+    margin: 20px;
+   
 
 }
 
@@ -23,13 +26,18 @@ header p {
     grid-column: span 5;
     text-align: center;
     background-color: rgb(25, 77, 109);
+    font-weight: 700px;
     padding: 5px;
 }
 
-nav {
-    grid-row: 1;
-    grid-column: 5;
+
+h1, nav {
+    padding: 2px;
 }
+nav {
+   
+    grid-row: 2;
+ }
 
 nav button {
    
@@ -45,9 +53,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: none;
+   
 }
 
-nav ul.open {display: block}
+nav ul.open {
+    display: block;}
 
 nav ul li a {
     display: block;
@@ -55,6 +65,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     border-top: 1px solid rgba(0,0,0,.5);
+    
 }
 
 nav ul li a:hover {
@@ -70,9 +81,6 @@ header, footer {
     color: white;
 }
 
-h1 {
-    padding: 10px;
-}
 
 footer {
     font-family: 'Sansita', sans-serif;
@@ -88,31 +96,139 @@ a {
 
 /*-------------------CLASS SELECTORS----------------*/
 
-.blocks {
-    display: grid;
-    margin: 10px;
-    gap: 10px;
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: center;
+    text-align: center;
+   
+
 }
 
-.blocks div{
-    border: 1px solid rgba(0,0,0,.5);
-    padding: 40px;
+.name h1 {
+    padding: .5px;
+    margin: 0;
+    text-align: left;
 }
 
 
+.info {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
 
+.info, .name, .social-media {
+    grid-row: 2;
+}
 .social-media img  {
     width: 30px;
     grid-column: 4;
     grid-row: 1;
+    padding: 2px;
 
 }
 
+.herodiv {
+    position: relative;
+    margin: 10px;
+}
 
-/*-----id-----*/
+.herodiv img {
+    width: 100%;
+}
+
+
+.join_us {
+    position: absolute;
+    bottom: 200px;
+    right: 50px;
+    background: rgb(29, 101, 196) ;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: 0 0 10px rgb(46, 84, 211);
+}
 
 
 
-#extra {
+
+.temp {
+    display: grid;
+
+}
+
+.temp img {
+    grid-column: 1;
+  
+}
+.temp p {
+    grid-column: 2;
+    text-align: left;
+    font-size: 40px;
+
+    
+  
+}
+
+.forecast h2 {
+    text-align: end;
+    margin: 10px;
+    border-bottom: 1px solid grey;
+}
+
+
+.spotlight1, .spotlight2, .spotlight3 {
+    border: 1px solid rgb(25, 77, 109);
+    padding: 10px;
+    background-color: #dbe6eb;
+    box-shadow: 0 0 20px rgb(46, 84, 211);
+    grid-auto-rows: minmax(300, auto);
+
+}
+
+.spotlight1 img, .spotlight2 img, .spotlight3 img {
+    width: 100%;
+}
+
+.spotlight3 {
     display: none;
 }
+
+
+.divider {
+    border-bottom: 1px solid grey;
+}
+/*-----id-----*/
+#banner {
+    grid-column: 1/6;
+    text-align: center;
+    padding: 4px;
+}
+
+
+#blocks {
+    display: grid;
+    margin: 10px;
+    gap: 10px;
+   
+}
+
+#blocks h2, p {
+    text-align: center;
+}
+
+#events p, #join p, #weather p, #news p {
+    margin: 10px;
+}
+
+#events, #join, #weather, #news {
+    border: 1px solid rgb(25, 77, 109);
+    background-color: #dbe6eb;
+    box-shadow: 0 0 30px rgb(46, 84, 211);
+}
+

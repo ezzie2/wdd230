@@ -4,36 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chamber of Commerce Project- Esmeralda Stevens</title>
-    <meta name="description" content="This page has the information for header and footer with a wireframe layout. Those layouts vary 
-    and follow their own css stylesheets. No content has been filled out yet. Only focus for this page is on getting the header
-    and footer styled correctly.  ">
-    <link rel="shortcut icon" href="favicon.ico">
+    <title>Davis Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="The Davis Chamber of Commerce will contain relevant information for
+    community members to use. This site will provide up-to-date information for the 
+    of Divis County community.  "
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Laila:wght@300&family=Sansita&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/normalize.css" />  
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    
   </head>
   <body>
     <header>
-      <picture class="logo">
+      <div id="banner">
+        🤝🏼Come join us for the Chamber of Commerce meet and greet Wednesday at 7pm.
+      </div>
+      <div class="info"> 
         <img
           src="images/citylogo.png"
           alt="logo used to represent the Davis Chamber of Commerce"
         />
-      </picture>
-      <h1>
-        Davis <br />
-        Chamber of Commerce
-      </h1>
+      </div>
+      <div class="name">
+        <h1>Davis</h1>
+        <h1>Chamber of Commerce</h1>
+      </div>
+      
       <div class="social-media">
         <img src="images/facebook.svg" alt="sites' facebook page" />
         <img src="images/instagram.svg" alt="sites' intagram page" />
@@ -48,36 +55,110 @@
         </ul>
       </nav>
       <p><span id="date"></span></p>
+     
     </header>
     <main>
-      <div class="blocks">
-        <div id="cta">Hero with site name</div>
-        <div id="events">Event</div>
-        <div id="join">Join</div>
-        <div id="weather">Weather</div>
-        <div id="news">News Release</div>
+      <div id="blocks">
+        <div class="herodiv">
+          <img src="https://placeimg.com/760/450/nature" alt="nature image">
+        </div>
+        <section>
+          <button class="join_us" onclick="window.location.href ='#';">Join Us</button>
+        </section>
+        <div id="events">
+          <section>
+            <h2>Ribbon Cutting</h2>
+            <p>St. Andrew's Park</p>
+            <p>
+              Join us for a ribbon cutting ceremony to commemorate the first
+              ever park that includes...
+            </p>
+          </section>
+        </div>
+        <div id="join">
+          <section>
+            <h2>Join</h2>
+            <p>
+              Find out what you need to do to join the chamber of commerce and
+              the benefits of it
+            </p>
+          </section>
+        </div>
+        <div id="weather">
+          <h2>Weather</h2>
+          <div class="temp">
+            <picture><img src="images/weather.png" alt="placeholder weather icon" /></picture>
+            <p>56°</p>
+          </div>
+          <div class="forecast">
+            <h2>Scattered Rain</h2>
+            <p>Wind Speed: 2.5km/h</p>
+            <p>Wind Chill: N/A</p>
+          </div>
+        </div>
+        <div id="news">
+          <section>
+            <h2>News Release</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel
+              dignissimos soluta, reiciendis corporis quod omnis voluptate,
+              fugiat voluptas eligendi fuga distinctio consectetur sed nulla
+              minima corrupti nisi quisquam ducimus? Natus velit maxime, illo
+              optio eveniet, placeat aliquam laudantium minima fugiat nostrum
+              rem recusandae? Sunt earum alias amet suscipit, commodi inventore
+              perferendis praesentium eum qui?
+            </p>
+          </section>
+        </div>
         <div id="spotlights">
-          <div>Spotlight1</div>
-          <div>Spotlight2</div>
-          <!-- <div id="extra">Spotlight3</div> -->
+          <section class="spotlight1">
+            <h2>Go Movers</h2>
+            <img
+              src="images/movingbox.png"
+              alt="placeholder for actual spotlighted business"
+            />
+            <p class="divider">"Ready for a move. We got your back!"</p>
+            <p>gomovers@fake.com</p>
+            <p>801-999-0000</p>
+          </section>
+      
+          <section class="spotlight2">
+            <h2>Happy Place</h2>
+            <img
+              src="images/flowers1.png"
+              alt="temporary placeholder img for business being spotlighted"
+            />
+            <p class="divider">"Stop and smell the roses."</p>
+            <p>happyplace@fake.com</p>
+            <p>801-901-HAPPY</p>
+          </section>
+         
+          <section class="spotlight3">
+            <h2>Learning Rocks</h2>
+            <img
+              src="images/homework.png"
+              alt="temp placehold img for tutoring service business spotlighted on home page"
+            />
+            <p class="divider">"Check off that homework list out!"</p>
+            <p>tutoring@fake.com</p>
+            <p>801-244-1332</p>
+          </section>
         </div>
       </div>
     </main>
-    <footer class="data">
-      <picture>
+    <footer class="contact_info">
+      <div>
         <img
           src="images/citylogo.png"
           alt="logo used to represent the Davis Chamber of Commerce"
         />
-      </picture>
-      <div class="info1">
-        <p>
-          Davis Chamber of Commerce <br />
-          1930 Main St <br />
-          Davis, UT 84204
-        </p>
       </div>
-      <br>
+      <div>
+          <p>Davis Chamber of Commerce</p>
+          <p>1930 Main St</p>
+          <p> Davis, UT 84204</p>
+      </div>
+      <br />
       <div class="info2">
         <p>
           info@daviscc.org <br />
@@ -85,7 +166,7 @@
           Map
         </p>
       </div>
-      <br>
+      <br />
       <div class="info3">
         <p>
           &copy; <span id="year"></span> Davis Chamber | Esmeralda Stevens |
