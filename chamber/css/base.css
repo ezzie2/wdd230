@@ -26,7 +26,7 @@ header p {
     grid-column: span 5;
     text-align: center;
     background-color: rgb(25, 77, 109);
-    font-weight: 700px;
+    font-weight: 700;
     padding: 5px;
 }
 
@@ -133,18 +133,25 @@ a {
 
 .herodiv {
     position: relative;
-    margin: 10px;
+
+
 }
 
 .herodiv img {
     width: 100%;
 }
 
+.herodiv h2 {
+    position: absolute;
+    top: 15px;
+    margin: 10px;
+
+}
 
 .join_us {
     position: absolute;
-    bottom: 200px;
-    right: 50px;
+    right: 10px;
+    bottom: 15px;
     background: rgb(29, 101, 196) ;
     color: white;
     font-size: 20px;
@@ -169,31 +176,24 @@ a {
 .temp p {
     grid-column: 2;
     text-align: left;
-    font-size: 40px;
-
-    
+    font-size: 40px; 
   
 }
 
 .forecast h2 {
-    text-align: end;
-    margin: 10px;
     border-bottom: 1px solid grey;
 }
 
 
 .spotlight1, .spotlight2, .spotlight3 {
-    border: 1px solid rgb(25, 77, 109);
     padding: 10px;
     background-color: #dbe6eb;
     box-shadow: 0 0 20px rgb(46, 84, 211);
-    grid-auto-rows: minmax(300, auto);
+    /* grid-auto-rows: minmax(300, auto); */
 
 }
 
-.spotlight1 img, .spotlight2 img, .spotlight3 img {
-    width: 100%;
-}
+
 
 .spotlight3 {
     display: none;
@@ -222,13 +222,21 @@ a {
     text-align: center;
 }
 
-#events p, #join p, #weather p, #news p {
+#events p, #join p, #news p {
     margin: 10px;
 }
 
 #events, #join, #weather, #news {
-    border: 1px solid rgb(25, 77, 109);
     background-color: #dbe6eb;
     box-shadow: 0 0 30px rgb(46, 84, 211);
 }
 
+#weather p {
+    text-align: center;
+    padding: 10px;
+}
+
+
+#weather img {
+    max-width: 100%;
+}
