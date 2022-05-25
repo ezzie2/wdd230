@@ -1,8 +1,15 @@
-let d = new Date();
+function displayBanner() {
+    banner = document.getElementById("banner")
 
-const banner = document.getElementById("banner");
-if (d.getDay() == 2) {
-    banner.style.display = "block";
-} else {
-    banner.style.display = "none";
+    date = new Date()
+    ad = date.getDay()
+
+ 
+    if (ad == 1 || ad == 2) {
+        banner.style.display = "block"
+    } else {
+        banner.style.display = "none"
+}
+    console.log(ad);
+
 }
