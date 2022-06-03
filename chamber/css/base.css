@@ -139,7 +139,10 @@ a {
 
 .herodiv img {
     width: 100%;
+    
 }
+
+
 
 .herodiv h2 {
     position: absolute;
@@ -180,8 +183,9 @@ a {
   
 }
 
-.forecast h2 {
+#cast_title {
     border-bottom: 1px solid grey;
+    margin: 5px;   
 }
 
 
@@ -239,4 +243,8 @@ a {
 
 #weather img {
     max-width: 100%;
+}
+
+#spotlights img {
+    width: 100%;
 }

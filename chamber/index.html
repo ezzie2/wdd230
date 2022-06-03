@@ -33,7 +33,7 @@
       </div>
       <div class="info">
         <img
-          src="images/citylogo.png"
+          src="images/cityLogo.webp"
           alt="logo used to represent the Davis Chamber of Commerce"
         />
       </div>
@@ -60,7 +60,17 @@
     <main>
       <div id="blocks">
         <div class="herodiv">
-          <img src="https://placeimg.com/760/450/nature" alt="nature image" />
+          <picture>
+
+            <source srcset="images/mediumPicture.jpg" media="(min-width:650px) and (max-width: 890px)">
+            <source srcset="images/largePicture.jpg" media="(min-width:890px)">
+            <img src="images/smallPicture.jpg" alt="negotiation" 
+           
+           
+         
+            />       
+          </picture>
+               
           <h2>Welcome to Davis</h2>
           <button class="join_us" onclick="window.location.href ='#';">
             Join Us
@@ -89,12 +99,12 @@
           <h2>Weather</h2>
           <div class="temp">
             <img src="images/weather.png" alt="placeholder weather icon" />
-            <p>56°</p>
           </div>
           <div class="forecast">
-            <h2>Scattered Rain</h2>
-            <p>Wind Speed: 2.5km/h</p>
-            <p>Wind Chill: N/A</p>
+            <span id="cast_title">Scattered Rain</span>
+            <p><span id="temperature"></span> °F</p>
+            <p>Wind Speed: <span id="windspeed"></span> km/h</p>
+            <p>Wind Chill: <span id="windchill"></span> </p>
           </div>
         </div>
         <div id="news">
@@ -114,10 +124,13 @@
         <div id="spotlights">
           <section class="spotlight1">
             <h2>Go Movers</h2>
-            <img
-              src="images/movingbox.png"
-              alt="placeholder for actual spotlighted business"
-            />
+            <picture>
+            
+              <source srcset="images/movingbox400.webp" media="(min-width:550px) and (max-width: 650px)">
+              <source srcset="images/movingbox.png" media="(min-width:890px)">
+              <img src="images/movingbox250.webp" alt="stacked moving boxes" 
+             
+            /></picture>
             <p class="divider">"Ready for a move. We got your back!"</p>
             <p>gomovers@fake.com</p>
             <p>801-999-0000</p>
@@ -125,10 +138,14 @@
 
           <section class="spotlight2">
             <h2>Happy Place</h2>
-            <img
-              src="images/flowers1.png"
-              alt="temporary placeholder img for business being spotlighted"
-            />
+            <picture>
+            
+              <source srcset="images/flower550.webp" media="(min-width:550px) and (max-width: 890px)">
+              <source srcset="images/flowers750.webp" media="(min-width:890px)">
+              <img src="images/flowers250.webp" alt="single flower for shops ad" 
+             
+            /></picture>
+           
             <p class="divider">"Stop and smell the roses."</p>
             <p>happyplace@fake.com</p>
             <p>801-901-HAPPY</p>
@@ -150,7 +167,7 @@
     <footer class="contact_info">
       <div>
         <img
-          src="images/citylogo.png"
+          src="images/cityLogo.webp"
           alt="logo used to represent the Davis Chamber of Commerce"
         />
       </div>
@@ -178,5 +195,6 @@
     <script src="js/date.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bannerdate.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>
