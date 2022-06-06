@@ -207,6 +207,25 @@ a {
 .divider {
     border-bottom: 1px solid grey;
 }
+
+.discovermain{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.discovermain img[data-src] {
+    filter: blur(0.2em);
+
+}
+
+.discovermain img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
 /*-----id-----*/
 #banner {
     grid-column: 1/6;
@@ -248,3 +267,6 @@ a {
 #spotlights img {
     width: 100%;
 }
+
+
+
