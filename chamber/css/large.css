@@ -50,6 +50,12 @@
         grid-column: 2;
 
     }
+    
+    .discover {
+        width: 50%;
+        margin-left: auto;
+        margin: auto;
+    }
 
 /*-----id-----*/
 

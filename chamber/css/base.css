@@ -33,6 +33,7 @@ header p {
 
 h1, nav {
     padding: 2px;
+    text-align: center;
 }
 nav {
    
@@ -207,21 +208,25 @@ a {
 .divider {
     border-bottom: 1px solid grey;
 }
-
-.discovermain{
+ 
+.discover {
     display: flex;
     flex-flow: column;
-    justify-content: center;
-}
-
-.discovermain img[data-src] {
-    filter: blur(0.2em);
+    align-items: center;
+    gap: 1em;
 
 }
 
-.discovermain img {
+
+.discover img[data-src] {
+    filter: blur(0.10em);
+
+}
+
+.discover img {
     filter: blur(0em);
     transition: filter 1s;
+    border: 1.5px solid black;
 }
 /*-----id-----*/
 #banner {

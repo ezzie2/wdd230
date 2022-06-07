@@ -26,6 +26,12 @@
     .spotlight3 {
         display: none;
     }
+
+    .discover {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     
     
