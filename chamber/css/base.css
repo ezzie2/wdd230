@@ -211,10 +211,7 @@ a {
 .discovermain{
     display: flex;
     flex-flow: column;
-    align-items: center;
-    text-align: center;
     justify-content: center;
-
 }
 
 .discovermain img[data-src] {
