@@ -10,7 +10,6 @@ body {
     background-color: #FBFEF9;
     font-family: 'Sansita', sans-serif;
     font-size: 17px;
-    margin: 20px;
    
 
 }
@@ -109,8 +108,6 @@ a {
 }
 
 .name h1 {
-    padding: .5px;
-    margin: 0;
     text-align: left;
 }
 
