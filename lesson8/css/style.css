@@ -1,0 +1,63 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    margin: 8px;
+}
+
+
+
+table {
+    border: 1px solid rgb(144, 136, 136);
+    
+}
+
+
+
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    
+}
+
+tr:nth-child(2n+3) {
+    background-color: rgb(214, 212, 212);
+}
+
+
+thead{
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+}
+
+tfoot {
+    color: white;
+    font-size: .5em;
+    background-color: black;
+}
+
+tbody {
+    font-size: 1.15em;
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}
+
+#iDay {
+    font-style: italic;
+}
+
+
+#headings {
+    background-color: rgb(93, 93, 172);
+    color: white;
+    font-size: 1.15em;
+}
+
+#shortGoal {
+    background-color: rgb(93, 93, 172);
+    color: white;
+}
+
+
