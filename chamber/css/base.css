@@ -76,7 +76,6 @@ nav ul li a:hover {
 
 header, footer {
     background-color: #0C6291;
-    margin: 10px;
     padding: 10px;
     color: white;
 }
@@ -94,6 +93,29 @@ a {
     text-decoration: none;
 }
 
+/* JOIN PAGE */
+
+form p {
+    display: table-row;
+}
+
+textarea {
+    padding: 8px;
+}
+
+th, td {
+    padding: .5rem;
+}
+
+th {
+    font-size: 30px;
+}
+
+input {
+    padding: 8px;
+
+}
+/* END */
 /*-------------------CLASS SELECTORS----------------*/
 
 
@@ -181,17 +203,11 @@ a {
   
 }
 
-#cast_title {
-    border-bottom: 1px solid grey;
-    margin: 5px;   
-}
-
 
 .spotlight1, .spotlight2, .spotlight3 {
     padding: 10px;
     background-color: #dbe6eb;
     box-shadow: 0 0 20px rgb(46, 84, 211);
-    /* grid-auto-rows: minmax(300, auto); */
 
 }
 
@@ -225,6 +241,16 @@ a {
     transition: filter 1s;
     border: 1.5px solid black;
 }
+
+/* JOIN PAGE */
+.input {
+    padding: 5px;
+}
+
+.extraPicture img {
+    display: none;
+}
+/* END */
 /*-----id-----*/
 #banner {
     grid-column: 1/6;
@@ -253,6 +279,11 @@ a {
     box-shadow: 0 0 30px rgb(46, 84, 211);
 }
 
+#cast_title {
+    border-bottom: 1px solid grey;
+    margin: 5px;   
+}
+
 #weather p {
     text-align: center;
     padding: 10px;
@@ -268,4 +299,18 @@ a {
 }
 
 
+/* JOIN SECTION */
 
+
+#membership {
+   padding: 10px;
+}
+
+
+
+#joinBtn input:hover {
+    color: white;
+    background-color: skyblue;
+    font-size: 20px;
+    border: none;
+}
