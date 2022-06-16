@@ -61,10 +61,8 @@
         display: block;
         width: 100%;
         border-radius: 10px 15px;
-        grid-row: 1;
-        grid-column: 2;
         background-color: skyblue;
-        margin: 10px;
+
    
     }
 /*-----id-----*/
@@ -115,13 +113,13 @@
         grid-row: 1;
     }
 
-    }
+
 
     /* JOIN PAGE */
 
     #formGrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+      
+        grid-template-columns: 1fr 500px;
         column-gap: 15px;
         row-gap: 15px;
 }
@@ -130,12 +128,8 @@
    #joinPage{
         margin: 20px;
         padding: 20px;
+       
 
-    }
-
-    #personalData label {
-        display: table-cell;
-        height: 15px;
     }
     
     #membership {
@@ -144,16 +138,14 @@
     }
 
     #explainations {
-        grid-row: 2;   
+        grid-row: 1;   
         grid-column: 2;     
 
     }
 
-    #joinBtn {
-        grid-row: 3;
-    }
 
 
 
+}
 
    

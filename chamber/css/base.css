@@ -111,9 +111,17 @@ th {
     font-size: 30px;
 }
 
+label {
+    padding: 5px;
+}
+
 input {
     padding: 8px;
 
+}
+
+input[type="radio"] {
+    transform: scale(1.25);
 }
 /* END */
 /*-------------------CLASS SELECTORS----------------*/
@@ -250,6 +258,17 @@ input {
 .extraPicture img {
     display: none;
 }
+
+.joinBtn {
+    display: grid;
+}
+
+.joinBtn input:hover {
+    color: white;
+    background-color: skyblue;
+    font-size: 20px;
+    border: none;
+}
 /* END */
 /*-----id-----*/
 #banner {
@@ -301,17 +320,31 @@ input {
 
 /* JOIN SECTION */
 
+#joinPage{
+    margin: 30px;
+    justify-content: center;
+  
+}
 
+#formGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+ 
+}
 
 #membership {
    padding: 10px;
 }
 
+#explainations {
+    grid-row: 3;
+    grid-column: 1/2;
+}
 
-
-#joinBtn input:hover {
-    color: white;
-    background-color: skyblue;
-    font-size: 20px;
-    border: none;
+#thankyou {
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }

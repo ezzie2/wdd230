@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farmington Chamber of Commerce</title>
+    <title>Join - Farmington Chamber of Commerce</title>
     <meta
       name="description"
-      content="The Farmington Chamber of Commerce will contain relevant information for
-    community members to use. This site will provide up-to-date information for the 
-    Farmington community.  "
+      content="A form for an interested business to join the chamber of commerce. Details included are membership
+      benefits depending on desired level."
     />
     <link rel="shortcut icon" href="favicon.ico" />
 
@@ -27,10 +26,6 @@
   </head>
   <body>
     <header>
-      <div id="banner">
-        🤝🏼Come join us for the Chamber of Commerce meet and greet Wednesday at
-        7pm.
-      </div>
       <div class="info">
         <img
           src="images/cityLogo.webp"
@@ -61,95 +56,103 @@
       <p><span id="date"></span></p>
     </header>
 
-    <main id="joinPage" >
+    <main id="joinPage">
       <div id="formGrid">
         <form action="thankyou.html" method="get">
           <fieldset id="personalData">
-            <legend>Personal Information</legend>
-            <div class="input">
-              <label for="fname">First Name*</label>
-              <input type="text" name="fname" id="fname" size="48" required />
-            </div>
-            <div class="input">
-              <label for="lname">Last Name*</label>
-              <input type="text" name="lname" id="lname" size="48" required />
-            </div>
-            <div class="input">
-              <label for="position"
-                >Position Title - Min 7(characters, hyphers and spaces)</label
-              >
-              <input
-                class="positionInput"
-                type="text"
-                name="position"
-                id="position"
-                size="48"
-                pattern="[a-zA-Z\s-]{7}"
-              />
-            </div>
-            <div class="input">
-              <label for="email">Email Address*</label>
-              <input
-                type="text"
-                name="email"
-                id="email" 
-                size="48"
-                required
-                placeholder="janedoe@email.com"
-              />
-            </div>
-            <div class="input">
-              <label for="cellnumber">Cell Phone Number*</label>
-              <input type="tel" name="cellnumber" id="cellnumber" size="48" required />
-            </div>
-            <div class="input">
-              <label for="business">Business Name*</label>
-              <input type="text" name="business" id="business" size="48" required />
+            <legend>Applicant Information</legend>
+            <input type="hidden" id="loadDate" name="loadDate" />
+            
+
+            <label for="fname">First Name*</label>
+            <input type="text" name="fname" id="fname" size="48" required />
+
+            <label for="lname">Last Name*</label>
+            <input type="text" name="lname" id="lname" size="48" required />
+
+            <label for="position"
+              >Position Title - Min 7(characters, hyphers and spaces)</label
+            >
+            <input
+              type="text"
+              name="position"
+              id="position"
+              size="48"
+              pattern="[a-zA-Z\s-]{7}"
+            />
+
+            <label for="email">Email Address*</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              size="48"
+              required
+              placeholder="janedoe@email.com"
+            />
+
+            <label for="cellnumber">Cell Phone Number*</label>
+            <input
+              type="tel"
+              name="cellnumber"
+              id="cellnumber"
+              size="48"
+              required
+            />
+
+            <label for="business">Business Name*</label>
+            <input
+              type="text"
+              name="business"
+              id="business"
+              size="48"
+              required
+            />
+
+            <label for="business">Describe Business</label>
+            <textarea name="businessDetails" cols="50" rows="10"></textarea>
+
+            <label for="np">Select Membership Level</label>
+            <div>
+              <label for="np"
+                ><input type="radio" id="np" name="level" value="np" />
+                Non-Profit Membership</label
+              ><br />
             </div>
 
-            <div class="input">     
-                  <textarea name="businessDetails" cols="50" rows="10" placeholder="Describe your business..."></textarea>
+            <div>
+              <label for="bronze"
+                ><input type="radio" id="bronze" name="level" value="bronze" />
+                Bronze Membership</label
+              ><br />
             </div>
 
+            <div>
+              <label for="silver"
+                ><input type="radio" id="silver" name="level" value="silver" />
+                Silver Membership</label
+              ><br />
+            </div>
+
+            <label for="gold"
+              ><input type="radio" id="gold" name="level" value="gold" /> Gold
+              Membership</label
+            ><br />
           </fieldset>
+          <br>
+          <div class="joinBtn">
+            <input type="submit" name="submitInfo" value="Join the Chamber" />
+          </div>
         </form>
 
-        <fieldset id="membership">
-          <legend>Select a membership Level</legend>
-          <div>
-            <input type="radio" id="np" name="level" value="np" />
-            <label for="np">Non-Profit Membership</label><br />
+        <div id="explainations">
+          <div class="extraPicture">
+            <picture>
+              <img src="images/meetin1.png" alt="chamber of commerce meeting" />
+            </picture>
           </div>
 
-          <div>
-            <input type="radio" id="bronze" name="level" value="bronze" />
-            <label for="bronze">Bronze Membership</label><br />
-          </div>
-
-          <div>
-            <input type="radio" id="silver" name="level" value="silver" />
-            <label for="silver">Silver Membership</label><br />
-          </div>
-
-          <div>
-            <input type="radio" id="gold" name="level" value="gold" />
-            <label for="gold">Gold Membership</label><br />
-          </div>
-        </fieldset>
-
-
-      <div class="extraPicture">
-         <picture>
-        <img
-          src="images/meetin1.png"
-          alt="chamber of commerce meeting"
-        />
-      </picture> 
-      </div>
-      
-     
-      <div id="explainations">
-        <fieldset >
+          <fieldset>
             <legend>Explanations of Membership Levels</legend>
             <table>
               <tr>
@@ -159,8 +162,8 @@
               <tr>
                 <th>Bronze</th>
                 <td>
-                  $15/Month - Get referrals, participate in local events, access to
-                  newsletters
+                  $15/Month - Get referrals, participate in local events, access
+                  to newsletters
                 </td>
               </tr>
               <tr>
@@ -173,24 +176,16 @@
               <tr>
                 <th>Gold</th>
                 <td>
-                  $45/Month - Previous membership level benefits plus advertising on
-                  website twice a month for 14 days and discounts
+                  $45/Month - Previous membership level benefits plus
+                  advertising on website twice a month for 14 days and discounts
                 </td>
               </tr>
             </table>
           </fieldset>
-    
+          <br />
+          
+        </div>
       </div>
-     
-      <div id="joinBtn">
-            <input
-        type="submit"
-        name="submitInfo"
-        value="Join the Chamber"
-      />
-      </div>
-
-    </div>
     </main>
 
     <footer class="contact_info">
@@ -224,9 +219,6 @@
         </p>
       </div>
     </footer>
-    <script src="js/date.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/bannerdate.js"></script>
-    <script src="js/windchill.js"></script>
   </body>
 </html>
