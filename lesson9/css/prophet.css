@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(33, 37, 35);
+    text-align: center;
+    justify-content: center;
+   
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    font-family: "Amita", sans-serif;
+    
+
+}
+
+img {
+   
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 6px 0 10px grey;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+   
+    border: 1px solid black;
+    background-color: rgb(236, 233, 215);
+    border-radius: 5px 15px;
+    
+}
+
+p {
+    margin: 5px;
+    font-family: "Bellefair", sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    font-size: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 7px;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
