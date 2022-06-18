@@ -3,9 +3,9 @@
         {
             "name": "Budd's Berries & Blues",
             "address": "739 Main St Farmington, UT 83440",
-            "phone number": 8018921345,
+            "phone number": "801-892-1345",
             "website": "www.berriesnblues.com",
-            "image": "images/berries.jpg",
+            "image": "https://www.flickr.com/photos/smoothierecetas/49886159936/",
             "membership level": "Silver"   
         },
         {
@@ -13,7 +13,7 @@
             "address": "930 N 340 W Farmington, UT 84025",
             "phone number": "801-234-2323",
             "website": "www.kaleidoscope.com",
-            "image": "https://imgs.search.brave.com/0kw0YAgSaiVEt6ktahrKdvzPUb3r5eu7fgxyzD4yPCw/rs:fit:1000:1034:1/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vcm9iYnJl/c3R5bGUuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzEx/L3ZpbnRhZ2UtaG9s/aWRheS1raXRjaGVu/LWhvbWUtdG91ci0x/MC5qcGc_c3NsPTE",
+            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nrf.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fcrop_750_486%2Fpublic%2F2022-06%2Fshutterstock_247837891.jpg%3Fitok%3DYoAFKzuL&imgrefurl=https%3A%2F%2Fnrf.com%2F&tbnid=-GUKjCCZU8GAsM&vet=12ahUKEwiz0bW5rbb4AhW5AzQIHVNwB2MQMyhmegUIARDWAQ..i&docid=T9y9Tkx3541YaM&w=750&h=486&q=shopping%20store&ved=2ahUKEwiz0bW5rbb4AhW5AzQIHVNwB2MQMyhmegUIARDWAQ",
             "membership level": "Gold"   
         },
         {
