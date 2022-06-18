@@ -2,6 +2,7 @@
 
 function toggleMenu() {
     document.getElementById("navigationMenu").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle('open');
 }
 
 const x = document.getElementById("hamburgerBtn")
