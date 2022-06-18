@@ -22,15 +22,17 @@ function showPlaces(places) {
     let section = document.createElement('section');
     let name = document.createElement('h2');
     let address= document.createElement('p');
-    let phoneN = document.createElement('p');
+    let phone = document.createElement('p');
     let website = document.createElement('p');
+    let member = document.createElement('p');
     let img = document.createElement('img');
 
     name.innerHTML = `${places.name}`;
     address.innerHTML = `${places.address}`;
-    phoneN.innerHTML = `${places.phoneN}`;
+    phone.innerHTML = `${places.phone}`;
     website.innerHTML = `${places.website}`;
-    img.setAttribute('src', `${places.imageurl}`);
+    member.innerHTML = `${places.membership}`
+    img.setAttribute('src', `${places.image}`);
     img.setAttribute('alt', `${places.name}`);
     img.setAttribute('loading', 'lazy');
 
