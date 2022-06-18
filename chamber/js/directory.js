@@ -40,8 +40,9 @@ function showPlaces(places) {
     section.append(name);
     section.appendChild(img);
     section.appendChild(address);
-    section.appendChild(phoneN);
+    section.appendChild(phone);
     section.appendChild(website);
+    section.appendChild(member);
     
 
     document.querySelector('div.businesses').appendChild(section);

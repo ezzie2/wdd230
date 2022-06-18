@@ -293,6 +293,10 @@ input[type="radio"] {
 .businesses p {
     padding: 3px;
 }
+
+.businesses img {
+    width: 100%;
+}
 /* END  */
 
 /*-----id-----*/
