@@ -43,7 +43,7 @@ nav button {
    
     background-color: transparent;
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 
 }
@@ -151,6 +151,8 @@ input[type="radio"] {
 .info, .name, .social-media {
     grid-row: 2;
 }
+
+
 .social-media img  {
     width: 30px;
     grid-column: 4;
@@ -327,6 +329,24 @@ input[type="radio"] {
     background-color: #dbe6eb;
     box-shadow: 0 0 30px rgb(46, 84, 211);
 }
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+
 
 #cast_title {
     border-bottom: 1px solid grey;
