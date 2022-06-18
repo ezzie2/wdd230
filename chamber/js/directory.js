@@ -27,9 +27,9 @@ function showPlaces(places) {
     let img = document.createElement('img');
 
     name.innerHTML = `${places.name}`;
-    address.innerHTML = `Address: ${places.address}`;
-    phoneN.innerHTML = `Phone Number: ${places.phoneN}`;
-    website.innerHTML = `Website: ${places.website}`;
+    address.innerHTML = `${places.address}`;
+    phoneN.innerHTML = `${places.phoneN}`;
+    website.innerHTML = `${places.website}`;
     img.setAttribute('src', `${places.imageurl}`);
     img.setAttribute('alt', `${places.name}`);
     img.setAttribute('loading', 'lazy');
