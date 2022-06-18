@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Budd's Berries & Blues",
+            "address": "739 Main St Farmington, UT 83440",
+            "phone number": "801-892-1345",
+            "website": "www.berriesnblues.com",
+            "image": "https://www.flickr.com/photos/smoothierecetas/49886159936/",
+            "membership level": "Silver"   
+        },
+        {
+            "name": "Konnie Kalani's Kaleidoscope",
+            "address": "930 N 340 W Farmington, UT 84025",
+            "phone number": "801-234-2323",
+            "website": "www.kaleidoscope.com",
+            "image": "https://imgs.search.brave.com/0kw0YAgSaiVEt6ktahrKdvzPUb3r5eu7fgxyzD4yPCw/rs:fit:1000:1034:1/g:ce/aHR0cHM6Ly9pMi53/cC5jb20vcm9iYnJl/c3R5bGUuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzEx/L3ZpbnRhZ2UtaG9s/aWRheS1raXRjaGVu/LWhvbWUtdG91ci0x/MC5qcGc_c3NsPTE",
+            "membership level": "Gold"   
+        },
+        {
+            "name": "Toy's Outlet",
+            "address": "244 N 2323 E Farmington, UT 84025",
+            "phone number": "801-344-2478",
+            "website": "www.toyoutlet.com",
+            "image": "https://www.flickr.com/photos/30478819@N08/44289962475",
+            "membership level": "Bronze"   
+        },
+        {
+            "name": "Worcestershire",
+            "address": "900 N 203 E Farmington, UT 84025",
+            "phone number": "801-391-1938",
+            "website": "www.worcestershire.com",
+            "image": "https://upload.wikimedia.org/wikipedia/en/c/ca/Man_Meat_Fire_Sauces.jpg",
+            "membership level": "Gold"   
+        },
+        {
+            "name": "The Brown Suit",
+            "address": "930 Main St Farmington, UT 84025",
+            "phone number": "801-394-8394",
+            "website": "www.brownsuit.com",
+            "image": "https://imgs.search.brave.com/kSiSx95tdbHP7tAV-Btqf3YO22YiU8mG3XDAdwPbngs/rs:fit:640:427:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8ta1h6MlFXOGFB/VkkvVGZTWDU3Rnp2/QUkvQUFBQUFBQUFB/UzQvVXZLOXREcFdv/NzQvczE2MDAvTWVu/LXMtV29vbC1TdWl0/cy5qcGc",
+            "membership level": "Gold"   
+        },
+        {
+            "name": "Lighting Cash",
+            "address": "890 Main St Farmington, UT 84025",
+            "phone number": "801-394-3948",
+            "website": "www.lightingcash.com",
+            "image": "https://imgs.search.brave.com/-hQ7HHgd_pWYGH7N5VqG2MI7Ymk2_ys7Gk0NEFDxHJA/rs:fit:1035:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/aF9BRnd3QjNGLXN3/akZGcnVoTWhnSGFE/WiZwaWQ9QXBp",
+            "membership level": "Bronze"   
+        },
+        {
+            "name": "Dollar Laundry",
+            "address": "930 N 313 W Farmington, UT 84025",
+            "phone number": "801-343-3309",
+            "website": "www.dollarlaundry.com",
+            "image": "https://imgs.search.brave.com/XBN1Yg6LJMc9aYPKvEn6wfF7OpxUs2lFyJhzr60QBUg/rs:fit:1024:765:1/g:ce/aHR0cHM6Ly9saXZl/LnN0YXRpY2ZsaWNr/ci5jb20vNjEyMC82/MjUyNzA2Mjk4X2U5/ODA5MDA0YWVfYi5q/cGc",
+            "membership level": "Bronze"   
+        },
+        {
+            "name": "Todd Lawn Services",
+            "address": "890 S 100 W Farmington, UT 84025",
+            "phone number": "801-394-3948",
+            "website": "www.tlawnservices.com",
+            "image": "https://imgs.search.brave.com/EFcOOUryio0g4g267_P9dylPWHOvpddYGZHqCcB3-G8/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC56/emZBek1RQ0x6X0VQ/dGZBOS1UR1hRSGFF/NyZwaWQ9QXBp",
+            "membership level": "Silver"   
+        },
+        {
+            "name": "Help Store",
+            "address": "938 N 200 W Farmington, UT 84025",
+            "phone number": "801-394-3904",
+            "website": "www.helpstore.com",
+            "image": "https://imgs.search.brave.com/hEHZK7YMCoTz234K7KVja7zfuy4Y8IbsfI6wzT8WNmk/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly93d3cu/dGV4b21hc2hvbWVw/YWdlLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvc2l0ZXMvNDEv/MjAxNy8wOC9kb2cy/MDJfMTUwMzAyMzU2/MDI3Nl8yNTEwOTgy/M192ZXIxLjAuanBn/P3c9MTI4MCZoPTcy/MCZjcm9wPTE",
+            "membership level": "NP"   
+        }
+
+    ]
+}
