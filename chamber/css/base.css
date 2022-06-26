@@ -176,8 +176,9 @@ input[type="radio"] {
 
 .herodiv h2 {
     position: absolute;
-    top: 15px;
+    top: 5px;
     margin: 10px;
+    padding: 5px;
 
 }
 
@@ -194,24 +195,13 @@ input[type="radio"] {
     box-shadow: 0 0 10px rgb(46, 84, 211);
 }
 
-
-
-
 .temp {
-    display: grid;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.temp img {
-    grid-column: 1;
-  
-}
-.temp p {
-    grid-column: 2;
-    text-align: left;
-    font-size: 40px; 
-  
-}
+
 
 
 .spotlight1, .spotlight2, .spotlight3 {
@@ -304,6 +294,10 @@ input[type="radio"] {
 /* END  */
 
 /*-----id-----*/
+#date {
+    grid-row: 4;
+}
+
 #banner {
     grid-column: 1/6;
     text-align: center;
@@ -315,7 +309,7 @@ input[type="radio"] {
     display: grid;
     margin: 10px;
     gap: 10px;
-   
+    padding: 5px;   
 }
 
 #blocks h2, p {
@@ -325,6 +319,7 @@ input[type="radio"] {
 #events p, #join p, #news p {
     margin: 10px;
 }
+
 
 #events, #join, #weather, #news {
     background-color: #dbe6eb;
@@ -347,25 +342,19 @@ input[type="radio"] {
     display: block;
 }
 
-
-
-#cast_title {
-    border-bottom: 1px solid grey;
-    margin: 5px;   
-}
+/* weather section */
 
 #weather p {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+   
 }
-
-
-#weather img {
-    max-width: 100%;
-}
+/* weather end */
 
 #spotlights img {
-    width: 100%;
+    /* width: 100%; */
+    margin: 10px;
+    justify-items: center;
 }
 
 
