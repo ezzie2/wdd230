@@ -328,6 +328,15 @@ input[type=submit]:hover {
     width: 100%;
     padding: 10px;
 }
+
+/* contact  */
+
+.columnLocation {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+    padding: 20px;
+}
 /* END  */
 
 #spotlight1, #spotlight2, #spotlight3 {
@@ -447,14 +456,4 @@ input[type=submit]:hover {
     border-bottom: 1px solid black;
 }
 
-#contact p {
-    padding: 13px;
-}
 
-#form {
-   margin: 10px;
-}
-
-#form {
-    text-align: center;
-}

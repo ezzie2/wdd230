@@ -58,22 +58,23 @@
            <h2>Contact Us</h2>
            <p>Any questions, leave us a a message</p>
         </section>
-        <section id="contactIMG">
-            <img src="" alt="">
-        </section>
-        <div id="form">
+        <div id="columnLocation">
             <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" name="firstname" id="fname" placeholder="Your name..">
-                <label for="lname">Last Name</label>
-                <input type="text" name="lastname" id="lname" placeholder="Your last name..">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="Your email..">
-                <label for="phone">Phone Number</label>
-                <input type="number" name="phone" id="phone" placeholder="Your phone number..">
-                <label for="subject">Subject</label>
-                <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Your questions.."></textarea>
-                <input type="submit" name="sendMessage" id="subject"> 
+                <label for="fname">First Name*</label>
+                <input type="text" name="firstname" id="fname" placeholder="Your name.." required>
+                
+                <label for="lname">Last Name*</label>
+                <input type="text" name="lastname" id="lname" placeholder="Your last name.." required>
+                
+                <label for="email">Email*</label>
+                <input type="text" name="email" id="email" placeholder="Your email.." required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                
+                <label for="send">Subject*</label>
+                <textarea name="send" id="send" cols="50" rows="10" placeholder="Your questions.."></textarea>
+                <input type="submit" name="subject" id="send" value="Contact Us" required> 
 
             </form>
         </div> 
