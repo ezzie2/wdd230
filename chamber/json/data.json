@@ -5,7 +5,7 @@
             "address": "739 Main St Farmington, UT 83440",
             "phone": "801-892-1345",
             "website": "www.berriesnblues.com",
-            "image": "https://imgs.search.brave.com/IxgAw02iINDsTm8Y-mXR-VsxfdvJDO3rEKXUPefYT30/rs:fit:680:452:1/g:ce/aHR0cDovL3d3dy5m/b29kaXN0YS5jb20v/c2l0ZXMvZGVmYXVs/dC9maWxlcy9Ucmlw/bGUlMjBCZXJyeSUy/MENvY29udXQlMjBT/bW9vdGhpZSUyMDUu/anBn",
+            "image": "images/smoothie.webp",
             "membership": "Silver Membership"   
         },
         {
@@ -13,7 +13,7 @@
             "address": "930 N 340 W Farmington, UT 84025",
             "phone": "801-234-2323",
             "website": "www.kaleidoscope.com",
-            "image": "https://3.bp.blogspot.com/-31yn9lrlkOE/UZQ9KSJNnXI/AAAAAAAAOo4/YZnmdr_IukU/s1600/Jonathon-Adler-Store-Soho.jpg",
+            "image": "images/store.webp",
             "membership": "Gold Membership"   
         },
         {
@@ -21,7 +21,7 @@
             "address": "244 N 2323 E Farmington, UT 84025",
             "phone": "801-344-2478",
             "website": "www.toyoutlet.com",
-            "image": "https://imgs.search.brave.com/okiP4JRPoHLHwcmWTlsNINIYteUWSJpNWyjWMMi6PP8/rs:fit:720:480:1/g:ce/aHR0cDovLzEuYnAu/YmxvZ3Nwb3QuY29t/Ly1Hb1EyNTZhazc5/OC9VWmx1UndFcW5Y/SS9BQUFBQUFBQVU4/SS80QU9uSkpXLVly/NC9zMTYwMC9zbWF1/cmF0azAxNC5qcGc",
+            "image": "images/toyStore.webp",
             "membership": "Bronze Membership"   
         },
         {
@@ -29,7 +29,7 @@
             "address": "900 N 203 E Farmington, UT 84025",
             "phone": "801-391-1938",
             "website": "www.worcestershire.com",
-            "image": "https://upload.wikimedia.org/wikipedia/en/c/ca/Man_Meat_Fire_Sauces.jpg",
+            "image": "images/sauces.webp",
             "membership": "Gold Membership"   
         },
         {
@@ -37,7 +37,7 @@
             "address": "930 Main St Farmington, UT 84025",
             "phone": "801-394-8394",
             "website": "www.brownsuit.com",
-            "image": "https://imgs.search.brave.com/kSiSx95tdbHP7tAV-Btqf3YO22YiU8mG3XDAdwPbngs/rs:fit:640:427:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8ta1h6MlFXOGFB/VkkvVGZTWDU3Rnp2/QUkvQUFBQUFBQUFB/UzQvVXZLOXREcFdv/NzQvczE2MDAvTWVu/LXMtV29vbC1TdWl0/cy5qcGc",
+            "image": "images/suits.webp",
             "membership": "Gold Membership"   
         },
         {
@@ -45,7 +45,7 @@
             "address": "890 Main St Farmington, UT 84025",
             "phone": "801-394-3948",
             "website": "www.lightingcash.com",
-            "image": "https://imgs.search.brave.com/U5wKi6_C8RfpUveCx12hmlE5DsGqtz048tNnNnMj72k/rs:fit:900:600:1/g:ce/aHR0cHM6Ly90ZWNo/bm9mYXEub3JnL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA2/L2Nhc2gtYWR2YW5j/ZS5qcGc",
+            "image": "images/loanMoney.webp",
             "membership": "Bronze Membership"   
         },
         {
@@ -53,15 +53,15 @@
             "address": "930 N 313 W Farmington, UT 84025",
             "phone": "801-343-3309",
             "website": "www.dollarlaundry.com",
-            "image": "https://imgs.search.brave.com/4e6IttxSljybeeqOzlv3Cp9XZORU7YWTVl6TpC2nlUI/rs:fit:715:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/RGxaazlSMmY3YWgt/RWRUQTZXeEVRSGFF/NiZwaWQ9QXBp",
+            "image": "images/laundryMat.webp",
             "membership": "Bronze Membership"   
         },
         {
-            "name": "Todd Lawn Services",
+            "name": "Todd's Lawn Services",
             "address": "890 S 100 W Farmington, UT 84025",
             "phone": "801-394-3948",
             "website": "www.tlawnservices.com",
-            "image": "https://imgs.search.brave.com/EFcOOUryio0g4g267_P9dylPWHOvpddYGZHqCcB3-G8/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC56/emZBek1RQ0x6X0VQ/dGZBOS1UR1hRSGFF/NyZwaWQ9QXBp",
+            "image": "images/lawnServices.webp",
             "membership": "Silver Membership"   
         },
         {
@@ -69,7 +69,7 @@
             "address": "938 N 200 W Farmington, UT 84025",
             "phone": "801-394-3904",
             "website": "www.helpstore.com",
-            "image": "https://imgs.search.brave.com/voHeXVmMZmsOsDWTkOpvzG4iy0vE0MBuB560G1c5E_Q/rs:fit:768:513:1/g:ce/aHR0cHM6Ly95b3Vy/bm9ydGhjb3VudHku/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzAxL3VwdG93/bi1jaGVhcHNrYXRl/LWNhcmxzYmFkLWNh/LTc2OHg1MTMuanBn",
+            "image": "images/thiftStore.webp",
             "membership": "NP Membership"   
         }
 

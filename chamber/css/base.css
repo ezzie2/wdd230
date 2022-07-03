@@ -163,12 +163,14 @@ input[type="radio"] {
 
 .herodiv {
     position: relative;
+    box-shadow: 0 0 10px rgb(46, 84, 211);
 
 
 }
 
 .herodiv img {
     width: 100%;
+
     
 }
 
@@ -176,10 +178,12 @@ input[type="radio"] {
 
 .herodiv h2 {
     position: absolute;
-    top: 5px;
-    margin: 10px;
+    top: 15px;
+    /* margin: 10px; */
     padding: 5px;
-
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px blue;
 }
 
 .join_us {
@@ -193,7 +197,30 @@ input[type="radio"] {
     border-radius: 8px;
     border-color: blue;
     box-shadow: 0 0 10px rgb(46, 84, 211);
+   
 }
+
+#join a:hover, .join_us a:hover {
+    background-color: black;
+}
+
+#join button {
+    background: rgb(29, 101, 196) ;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: 0 0 10px rgb(46, 84, 211); 
+    text-align: center;
+    margin: 5px;
+
+}
+
+#join section {
+    text-align: center;
+}
+
 
 .temp {
     display: flex;
@@ -202,25 +229,10 @@ input[type="radio"] {
 }
 
 
-
-
-.spotlight1, .spotlight2, .spotlight3 {
-    padding: 10px;
-    background-color: #dbe6eb;
-    box-shadow: 0 0 20px rgb(46, 84, 211);
-
-}
-
-
-
-.spotlight3 {
-    display: none;
-}
-
-
 .divider {
     border-bottom: 1px solid grey;
 }
+
  
 .discover {
     display: flex;
@@ -268,7 +280,7 @@ input[type="radio"] {
 
 .businesses {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 8px;
     margin: 10px;
     padding: 10px;
@@ -293,6 +305,18 @@ input[type="radio"] {
 }
 /* END  */
 
+#spotlight1, #spotlight2, #spotlight3 {
+    padding: 10px;
+    background-color: #dbe6eb;
+    box-shadow: 0 0 20px rgb(46, 84, 211);
+
+}
+
+
+#spotlight3 {
+    display: none;
+}
+
 /*-----id-----*/
 #date {
     grid-row: 4;
@@ -312,13 +336,15 @@ input[type="radio"] {
     padding: 5px;   
 }
 
-#blocks h2, p {
+#blocks h2, h3, p {
     text-align: center;
 }
 
 #events p, #join p, #news p {
     margin: 10px;
 }
+
+
 
 
 #events, #join, #weather, #news {
@@ -350,12 +376,6 @@ input[type="radio"] {
    
 }
 /* weather end */
-
-#spotlights img {
-    /* width: 100%; */
-    margin: 10px;
-    justify-items: center;
-}
 
 
 /* JOIN SECTION */
