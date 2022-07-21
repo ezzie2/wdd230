@@ -1,16 +1,16 @@
 {
     "templesList":[
         {
-            "name": "Arequipa Peru Temple",
-            "address": "Calle Cusco 380 Carmen Alto De Cayma Arequipa, Arequipa, Peru",
-            "telephone": "(51) 54-640-300",
+            "name": "Kona Hawaii Temple",
+            "address": "75-230 Kalani St Kailua-Kona HI 96740-1833",
+            "telephone": "(1) 808-331-8504",
             "email": "n/a",
-            "services": "no clothing, cafeteria or patron housing available; distribution center nearby",
-            "history": "Announced Oct 6 2012",
+            "services": "no clothing, cafeteria or patron housing available; no distribution center nearby",
+            "history": "Announced May 7, 1998",
             "ordinance schedule": "n/a",
             "session schedule": "n/a",
-            "temple closure": "07/28/22-07/29/22; 08/01/22-08/15/22; 10/01/22; 12/24/22; 12/31/22",
-            "image": "images/arequipa.webp"
+            "temple closure": "2022 Closures: 10/01/22-10/17/22; 11/23/22-11/24/22; 12/23/22-12/24/22; 12/31/22",
+            "image": "images/kona.webp"
         } ,
 
         {
@@ -40,16 +40,16 @@
         } ,
 
         {
-            "name": "Sao Paulo Brazil Temple",
-            "address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 Sao Paulo-SP, Brazil",
-            "telephone": "(55) 11-3723-7600",
+            "name": "The Hague Netherlands Temple",
+            "address": "Osylaan 2 2722 CV Zoetermeer Netherlands",
+            "telephone": "(31) 79-343-5310",
             "email": "n/a",
-            "services": "clothing rental available, no cafeteria, patron housing available, distribution center nearby",
-            "history": "Announced March 1, 1975",
+            "services": "no clothing, cafeteria, patron housing available; no distribution center nearby",
+            "history": "Announced August 16, 1999",
             "ordinance schedule": "n/a",
             "session schedule": "n/a",
-            "temple closure": "2022 Closures: 08/01/22-08/15/22; 9/07/22; 10/01/22; 12/24/22; 12/31/22",
-            "image": "images/sao.webp"
+            "temple closure": "2022 Closures: 09/05/22-09/19/22",
+            "image": "images/netherlands.webp"
         } 
     ]
 }
