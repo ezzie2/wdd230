@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reservations</title>
-    <meta name="description" content="Reservations page contains a form to be filled out by guest.
-    The information is then used by our staff to prepare our guests room(s). " />
+    <title>Services</title>
+    <meta name="description" content="The page contains the services that are 
+    provided by Temples Inn and Suites. Included a form for quick contact. " />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +34,7 @@
                 <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
                 <ul id="navMenu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="">Temples</a></li>
+                    <li><a href="temples.html">Temples</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="reservations.html">Reservations</a></li>
                 </ul>
@@ -51,7 +51,7 @@
         <div class="services">
            <div class="general">
                 <h2>Services</h2>
-                <h3>Accomodations:</h3>
+                <h3>Accomodations</h3>
                 <ul>
                     <li>Continental Breakfast</li>
                     <li>Free Parking</li>
@@ -66,12 +66,13 @@
                 </ul>
            </div> 
            
-           <div class="reception">
+           <div class="general">
                 <h3>Reception</h3>
-                <p>Planning a destination wedding and no where to 
+                <h4>Planning a destination wedding and no where to 
                 go? You can book multiple rooms for your guest. You 
                 can book our reception hall. We have three different halls
-                you can use: <br></p>
+                you can use including the following services: </h4>
+                <br>
                 <ul>
                     <li>Wedding Planner</li>
                     <li>Catering</li>
@@ -81,21 +82,38 @@
             
            </div>
 
-           <section class="suites">
+           <div>
+            <section class="general">
                 <h3>Full-time Temple Missionary</h3>
-                <p>We offer three suites for full-time temple
+                <h4>We offer three suites for full-time temple
                     missionaries.
-                </p>
+                </h4>
+            </section>
                     <div class="images">
-                      
-                        <img src="images/suite1.webp" alt="suite 1">
-                        <figcaption>Suite 1</figcaption>
-                     
-                        <img src="images/suite2.webp" alt="suite 2"> 
-                        <figcaption>Suite 2</figcaption>
 
-                        <img src="images/suite3.webp" alt="suite 3">
-                        <figcaption>Suite 3</figcaption>
+                        <div class="column">
+                          <figure>
+                            <img src="images/suite1.webp" alt="suite 1">
+                            <figcaption>Suite 1</figcaption> 
+                        </figure>  
+                        </div>
+                        
+                       <div class="column">
+                         <figure>
+                            <img src="images/suite4.webp" alt="suite 2"> 
+                            <figcaption>Suite 2</figcaption> 
+                        </figure>
+                      
+                       </div>
+                       
+                       <div class="column">
+                        <figure>
+                            <img src="images/suite3.webp" alt="suite 3">
+                            <figcaption>Suite 3</figcaption>
+                        </figure>
+                       </div>
+                        
+
                     </div>
 
                     <div class="guestInfo">
@@ -115,31 +133,36 @@
                             </div>
                             
         
-                            <input type="submit" name="submit" value="send inquiry">
+                            <input type="submit" name="submit" id="submit" value="send inquiry">
                         </form>
-                    </div>
-
-            </section>
+                    </div>            
            </div>
-            <footer class="vitalInfo">
-                <div>
-                    <h3>Temples Inn & Suites</h3>
-                    <p>4800 Montgomery Ln #300
-                        <br> Bethesda, MD 20814
-                    </p>
-                </div>
-                <div class="contact">
-                    <p>templesinn@contact.us <br>
-                        1-800-222-9999</p>
-
-                </div>
-                <div class="maplink">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284604!2d-77.09772048554103!3d38.98325594948538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658361243142!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <script src="js/script.js"></script>
-            </footer>
+           
         </div>
     </main>
+    <footer class="vitalInfo">
+        <div class="info">
+            <h3>Temples Inn & Suites</h3>
+            <p>4800 Montgomery Ln #300 <br>
+            Bethesda, MD 20814</p>
+            <br>
+      
+            <p>Contact Us: <a href="templesinn@contact.us">templesinn@contact.us</a>
+            <p>1-800-222-9999</p>
+        
+        </div>
+        
+        <iframe class="responsiveMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284604!2d-77.09772048554103!3d38.98325594948538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658361243142!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+
+        <div class="info2">
+            <p>
+              &copy; <span id="year"></span> Temples Inn & Suites | Esmeralda Stevens |
+              WDD230 Final | Last Updated: <span id="currenttime"></span>
+            </p>
+        </div>
+        <script src="js/script.js"></script>
+    </footer>
 </body>
 
 </html>

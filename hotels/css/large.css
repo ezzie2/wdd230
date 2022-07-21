@@ -6,7 +6,7 @@
     }
 
     .servicesList h2 {
-        grid-column: span 3;
+        grid-column: 1/4;
     }
    
     .templeInfo, .weather {
@@ -40,7 +40,6 @@
 /* RESERVATIONS PAGE */
 
 /* SERVICES */
-.suites img{
-    display: flex;
-    flex-direction: row;
-}
+
+
+

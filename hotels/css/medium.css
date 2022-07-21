@@ -5,6 +5,7 @@
         gap: 10px;
     }
 
+
     .service3, .service4, .service5 , .service6 {
         display: grid;
 
@@ -20,4 +21,38 @@
         align-items: center;
     }
 
+    .general{
+        display: grid;
+     
+    }
+
+    .images {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .info {
+        display: grid;
+    }
+    .info h3, .info p {
+        text-align: left;
+    }
+
+    .info h3{
+        grid-column: 1/ span 3;
+        text-align: center;
+    }
+
+    /* temples */
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        align-items: center;
+        justify-items: center;
+
+    }
+
 }
+
+

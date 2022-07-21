@@ -53,6 +53,22 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,.3);
 }
 
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
 
 
 h1 {
@@ -61,6 +77,7 @@ h1 {
 
 h2,h5 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 span {
@@ -114,11 +131,12 @@ p {
     border: none;
     padding: 3px;
     background-color: transparent;
+    font-size: 20px;
 }
 
 .cta button:hover {
     color: black;
-    background-color: lightblue;
+    background-color: rgb(118, 195, 221);
     border: none;
     padding: 3px;
     cursor: pointer;
@@ -138,8 +156,13 @@ p {
     text-align: left;
 }
 
-.logoImg, .hotelName, .social_media, .links {
+.logoImg, .hotelName, .social_media, .links, .links span {
     grid-row: 2;
+    padding: 6px;
+}
+
+.links span, .social_media {
+    cursor: pointer;
 }
 
 .social_media img {
@@ -201,7 +224,7 @@ p {
     grid-column: span 2;
 }
 
-.service1, .service2 {
+.service1, .service2, .info {
     padding: 4px;   
     margin: 3px;
 
@@ -209,6 +232,10 @@ p {
 
 .service3, .service4, .service5 , .service6 {
     display: none;
+}
+
+.images {
+    text-align: center;
 }
 
 /* weather section */
@@ -219,25 +246,25 @@ p {
 /* footer section */
 
 .vitalInfo {
-    
-    justify-content: center;
-    padding: 15px;
-    gap: 15px;
+    padding: 10px;
+
+
 }
 
-.contact {
-    grid-column: 2;
+.vitalInfo a {
+    text-decoration: none;
+    color: black;
 }
 
-/* .maplink {
-    grid-column: span 3;
-    width: 100%;
-} */
+.responsiveMap {
 
-.container {
     width: 100%;
-    height: 600px;
+    height: 60%;
+}
 
+
+.info h3, .info p, .info2 {
+    text-align: center;
 }
 
 /* ============ */
@@ -256,11 +283,17 @@ p {
 
 .guestInfo ul {
     margin: 30px;
+    list-style: none;
 }
 
 .topheading, .guestInfo {
     margin: 15px;
 }
+
+.topheading h2, .topheading h4, .topheading h5 {
+    text-align: left;
+}
+
 
 .formText {
     display: flex;
@@ -309,7 +342,6 @@ input[type=radio] {
 /* SERVICES */
 .services, h3 {
     margin: 20px;
-    text-align: left;
 }
 
 .services h2 {
@@ -322,12 +354,21 @@ input[type=radio] {
 }
 
 
-.suites {
-    display: grid;
-    grid-template-columns: 3;
+/* TEMPLES */
+
+.cards {
+    margin: 20px;
 }
 
-.suties h3 {
-    grid-row: 2;
+
+.cards section {
+    padding: 10px;
 }
 
+.cards h2, .cards p {
+    text-align: center;
+}
+
+.cards img {
+    border-radius: 10px;
+}
