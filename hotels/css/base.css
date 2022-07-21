@@ -170,12 +170,17 @@ p {
     padding: 6px;
 }
 
-.links span, .social_media {
+.links span, .social_media, .media {
     cursor: pointer;
 }
 
-.social_media img {
+.social_media img, .media {
     width: 30px;
+}
+
+.Fsocial_media {
+    display: flex;
+    align-content: center;
 }
 
 .logoImg {
@@ -233,8 +238,7 @@ p {
     grid-column: span 2;
 }
 
-.service1, .service2, .info {
-    padding: 4px;   
+.service1, .service2, .info { 
     margin: 3px;
 
 }
