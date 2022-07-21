@@ -24,11 +24,14 @@ function showTemples(temple) {
     let name = document.createElement('h2');
     let address = document.createElement('p');
     let phone = document.createElement('p');
+    let history = document.createElement('p');
     let img = document.createElement('img');
 
     name.innerHTML = `${temple.name}`;
     address.innerHTML = `${temple.address}`;
     phone.innerHTML = `${temple.telephone}`;
+    history.innerHTML = `${temple.history}`;
+    
     img.setAttribute('src', `${temple.image}`);
     img.setAttribute('alt', `${temple.name}`);
     img.setAttribute('loading', 'lazy');
@@ -37,6 +40,7 @@ function showTemples(temple) {
     section.appendChild(img);
     section.appendChild(address);
     section.appendChild(phone);
+    section.appendChild(history);
 
     document.querySelector('div.cards').appendChild(section);
 };
