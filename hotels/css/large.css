@@ -1,0 +1,40 @@
+@media only screen and (min-width: 55.5em) {
+    /* Home Page */
+    
+    .servicesList {
+        display: grid;
+    }
+
+    .servicesList h2 {
+        grid-column: span 3;
+    }
+   
+    .templeInfo, .weather {
+        margin: 40px;
+    }
+
+    .maplink {
+        width: 60%;
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        grid-row: 2;
+        margin: 2vw;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#navMenu {
+        display: flex;
+    }
+
+    nav ul li a {
+        border-top: none;
+    }
+}
+
+/* RESERVATIONS PAGE */

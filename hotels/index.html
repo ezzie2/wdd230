@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Temple Inn & Suites is a hotel chain 
+    headquartered in Bethesda, MD. We specialize in building and managing 
+    hotel accomodations near temple locations of The Church of Jesus Christ
+    of Latter-day Saints around the world.  " />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=BIZ+UDGothic&family=Philosopher&family=Playfair+Display&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoImg">
+            <img src="images/logo.webp" alt="company's logo" />
+        </div>
+        <div class="hotelName">
+            <h1>Temples Inn & Suites</h1>
+        </div>
+        <div class="links">
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="navMenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Temples</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="social_media">
+            <img src="images/facebook.svg" alt="sites' facebook page" />
+            <img src="images/instagram.svg" alt="sites' intagram page" />
+        </div>
+    </header>
+
+    <main>
+        <div class="home">
+            <div class="herodiv">
+                <figure>
+                    <img class="slides" src="images/alaska720w.webp" alt="Anchorage, Alaska" sizes="100vw"
+                        srcset="images/alaska720w.webp 720w, images/alaska1280w.webp 1280w" />
+                    <img class="slides" src="images/spain720w.webp" alt="Madrid, Spain" sizes="100vw"
+                        srcset="images/spain720w.webp 720w, images/spain1280w.webp 1280w" />
+                    <img class="slides" src="images/orlando720w.webp" alt="Orlando, Florida" sizes="100vw" srcset="
+                      images/orlando720w.webp   720w,
+                      images/orlando1280w.webp 1280w
+                    " />
+                    <img class="slides" src="images/Nigeria720w.webp" alt="Aba, Nigeria" sizes="100vw" srcset="
+                      images/Nigeria720w.webp   720w,
+                      images/Nigeria1280w.webp 1280w
+                    " />
+                    <img class="slides" src="images/australia720w.webp" alt="Adelaide, Australia" sizes="100vw" srcset="
+                      images/australia720w.webp   720w,
+                      images/australia1280w.webp 1280w
+                    " />
+                </figure>
+                <section class="cta">
+                    <h2>Check Us Out</h2>
+                    <h3>1-800-222-9999</h3>
+                    <button type="submit">Reserve Today</button>
+                </section>
+            </div>
+
+            <div class="templeInfo">
+                <h2>Temple Spotlight</h2>
+                <h3>Suva Fiji Temple</h3>
+                <p>
+                    <img src="images/suva_fiji.webp" alt="Suva Fiji Temple">
+                    The temple was announced in May 7, 1998. The following year in May 8th
+                    groundbreaking took place. In June 2000 it was dedicated by Gordon B
+                    Hinckley and rededicated in February 21, 2016 by Henry B. Erying. It
+                    sits on 4.7 acres and it is one of the highest points in the city
+                    overlooking the Pacific Ocean from three sides. It is the first temple
+                    built in Malenesia. Before its' construction 12,000 members traveled to
+                    temples in Tonga, Samoa or New Zealand.
+                </p>
+
+
+
+            </div>
+            <section class="servicesList">
+                <h2>Services</h2>
+
+                <div class="service1">
+                    <figure>
+                        <img src="images/breakfast200.webp" alt="Breakfast Plate">
+                        <figcaption>
+                            Continental Breakfast
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="service2">
+                    <figure>
+                        <img src="images/weddingReception200.webp" alt="wedding reception display hall">
+                        <figcaption>
+                            Wedding Planning
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="service3">
+                    <figure>
+                        <img src="images/wifi200.webp" alt="wifi symbol">
+                        <figcaption>
+                            Wifi
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="service4">
+                    <figure>
+                        <img src="images/parking.webp" alt="parking sign">
+                        <figcaption>
+                            Free Parking
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="service5">
+                    <figure>
+                        <img src="images/shuttleTransport200.webp" alt="shuttle transportation">
+                        <figcaption>
+                            Shuttle Service
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="service6">
+                    <figure>
+                        <img src="images/exerciseRoom200.webp" alt="exercise room">
+                        <figcaption>
+                            Exercise Rooms
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="weather">
+
+                <h2>Weather</h2>
+                <div class="currentConditions">
+                    <p>Temperature: <span id="currentTemp"></span> °F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                </div>
+                <div>
+                    <h4>3 Day Forecast</h4>
+                    <p></p>
+
+
+            </section>
+            <footer class="vitalInfo">
+                <div>
+                    <h3>Temples Inn & Suites</h3>
+                    <p>4800 Montgomery Ln #300
+                        <br> Bethesda, MD 20814
+                    </p>
+                </div>
+                <div>
+                    <p>templesinn@contact.us <br>
+                        1-800-222-9999</p>
+
+                </div>
+                <div class="maplink">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284604!2d-77.09772048554103!3d38.98325594948538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658361243142!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <script src="js/weather.js"></script>
+                <script src="js/script.js"></script>
+                <script src="js/slideshow.js"></script>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
