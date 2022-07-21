@@ -1,0 +1,51 @@
+{
+    "templesList":[
+        {
+            "name": "Arequipa Peru Temple",
+            "address": "Calle Cusco 380 Carmen Alto De Cayma Arequipa, Arequipa, Peru",
+            "telephone": "(51) 54-640-300",
+            "email": "n/a",
+            "services": "no clothing, cafeteria or patron housing available; distribution center nearby",
+            "history": "Announced Oct 6 2012",
+            "ordinance schedule": "n/a",
+            "session schedule": "n/a",
+            "temple closure": "07/28/22-07/29/22; 08/01/22-08/15/22; 10/01/22; 12/24/22; 12/31/22"
+        } ,
+
+        {
+            "name": "Billings Montana Temple",
+            "address": "3100 Rim Point Dr Billings MT 59106",
+            "telephone": "(1) 406-655-0607",
+            "email": "n/a",
+            "services": "clothing rental available, no cafeteria or patron housing available, disstribution center nearby",
+            "history": "Announced August 30, 1996",
+            "ordinance schedule": "n/a",
+            "session schedule": "n/a",
+            "temple closure": "2022 closures: 10/01/22; 10/10/22-10/24/22; 11/23/22-11/24/22; 12/23-12/24/22; 12/31/22"
+        } ,
+
+        {
+            "name": "Bountiful Utah Temple", 
+            "address": "640 S Bountiful Blvd Bountiful UT 84010",
+            "telephone": "(1) 801-296-2100",
+            "email": "n/a",
+            "services": "clothing rental available, no cafeteria or patron housing available, disstribution center nearby",
+            "history": "Announced Feb 2, 1900",
+            "ordinance schedule": "n/a",
+            "session schedule": "n/a",
+            "temple closure": "2022 Closures: 07/23/22; 09/19/22-10/03/22; 11/23/22-11/24/22; 12/23/22-12/24/22; 12/31/22"
+        } ,
+
+        {
+            "name": "Sao Paulo Brazil Temple",
+            "address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 Sao Paulo-SP, Brazil",
+            "telephone": "(55) 11-3723-7600",
+            "email": "n/a",
+            "services": "clothing rental available, no cafeteria, patron housing available, distribution center nearby",
+            "history": "Announced March 1, 1975",
+            "ordinance schedule": "n/a",
+            "session schedule": "n/a",
+            "temple closure": "2022 Closures: 08/01/22-08/15/22; 9/07/22; 10/01/22; 12/24/22; 12/31/22"
+        } 
+    ]
+}

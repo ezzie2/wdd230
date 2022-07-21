@@ -38,3 +38,9 @@
 }
 
 /* RESERVATIONS PAGE */
+
+/* SERVICES */
+.suites img{
+    display: flex;
+    flex-direction: row;
+}

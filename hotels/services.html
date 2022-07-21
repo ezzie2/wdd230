@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservations</title>
+    <meta name="description" content="Reservations page contains a form to be filled out by guest.
+    The information is then used by our staff to prepare our guests room(s). " />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=BIZ+UDGothic&family=Philosopher&family=Playfair+Display&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoImg">
+            <img src="images/logo.webp" alt="company's logo" />
+        </div>
+        <div class="hotelName">
+            <h1>Temples Inn & Suites</h1>
+        </div>
+        <div class="links">
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                <ul id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="social_media">
+            <img src="images/facebook.svg" alt="sites' facebook page" />
+            <img src="images/instagram.svg" alt="sites' intagram page" />
+        </div>
+    </header>
+
+    <main>
+        <div class="services">
+           <div class="general">
+                <h2>Services</h2>
+                <h3>Accomodations:</h3>
+                <ul>
+                    <li>Continental Breakfast</li>
+                    <li>Free Parking</li>
+                    <li>Free Wifi</li>
+                    <li>Shuttle Service</li>
+                    <li>Exercise Room</li>
+                    <li>Wedding Planning</li>
+                    <li>Short-term or Long-term stays</li>
+                    <li>Housekeeping</li>
+                    <li>Childcare</li>
+                    <li>And Much More</li>
+                </ul>
+           </div> 
+           
+           <div class="reception">
+                <h3>Reception</h3>
+                <p>Planning a destination wedding and no where to 
+                go? You can book multiple rooms for your guest. You 
+                can book our reception hall. We have three different halls
+                you can use: <br></p>
+                <ul>
+                    <li>Wedding Planner</li>
+                    <li>Catering</li>
+                    <li>Guaranteed Rooms for you and guest</li>
+                    <li>Photographers</li>
+                </ul>
+            
+           </div>
+
+           <section class="suites">
+                <h3>Full-time Temple Missionary</h3>
+                <p>We offer three suites for full-time temple
+                    missionaries.
+                </p>
+                    <div class="images">
+                      
+                        <img src="images/suite1.webp" alt="suite 1">
+                        <figcaption>Suite 1</figcaption>
+                     
+                        <img src="images/suite2.webp" alt="suite 2"> 
+                        <figcaption>Suite 2</figcaption>
+
+                        <img src="images/suite3.webp" alt="suite 3">
+                        <figcaption>Suite 3</figcaption>
+                    </div>
+
+                    <div class="guestInfo">
+                        <form action="#" method="get">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname" required>
+        
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname" required>
+        
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                
+                            <div class="formText">
+                            <label for="submit">Comment or Questions</label>
+                            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                            </div>
+                            
+        
+                            <input type="submit" name="submit" value="send inquiry">
+                        </form>
+                    </div>
+
+            </section>
+           </div>
+            <footer class="vitalInfo">
+                <div>
+                    <h3>Temples Inn & Suites</h3>
+                    <p>4800 Montgomery Ln #300
+                        <br> Bethesda, MD 20814
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>templesinn@contact.us <br>
+                        1-800-222-9999</p>
+
+                </div>
+                <div class="maplink">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284604!2d-77.09772048554103!3d38.98325594948538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1658361243142!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <script src="js/script.js"></script>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
