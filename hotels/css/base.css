@@ -23,6 +23,11 @@ header, footer {
     background-color: #FAA916;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Home Page */
 nav button {
     background-color: transparent;
@@ -46,6 +51,7 @@ nav ul li a {
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,.5);
     color: black;
+    font-size: 20px;
 }
 
 
@@ -78,6 +84,7 @@ h1 {
 h2,h5 {
     font-family: 'Playfair Display', serif;
     text-align: center;
+    padding: 5px;
 }
 
 span {
@@ -93,6 +100,7 @@ p {
     display: grid;
 }
 
+
 /* Slideshow Images*/
 
 .herodiv {
@@ -107,8 +115,8 @@ p {
 }
 
 .cta {
-    color: #FAA916;
-    font-size: 16px;
+    color: white;
+    font-size: 30px;
 }
 .cta h2{
     position: absolute;
@@ -123,22 +131,23 @@ p {
     right: 10px;
 }
 
-.cta button {
+.cta a {
     position: absolute;
     top: 75px;
     right: 10px;
-    color: #FAA916;
     border: none;
-    padding: 3px;
+    padding: 6px;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
 }
 
-.cta button:hover {
-    color: black;
-    background-color: rgb(118, 195, 221);
+.cta a:hover {
+    background-color: rgb(79, 17, 149);
     border: none;
-    padding: 3px;
+    padding: 6px;
     cursor: pointer;
     
 }
@@ -243,6 +252,10 @@ p {
     margin: 15px;
 }
 
+
+.currentCoditions p, #currentTemp, #humidity{
+    font-size: 30px;
+}
 /* footer section */
 
 .vitalInfo {
@@ -372,3 +385,4 @@ input[type=radio] {
 .cards img {
     border-radius: 10px;
 }
+

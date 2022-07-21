@@ -19,3 +19,4 @@ document.getElementById('currenttime').textContent = new Date().toLocaleDateStri
 
 const date = {weekday: "long", day: 'numeric', month: "long", year: "numeric"};
 document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', date);
+

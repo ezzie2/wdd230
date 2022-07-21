@@ -13,11 +13,6 @@
         margin: 40px;
     }
 
-    .maplink {
-        width: 60%;
-        margin: 0;
-    }
-
     nav {
         display: flex;
         grid-row: 2;
@@ -36,10 +31,4 @@
         border-top: none;
     }
 }
-
-/* RESERVATIONS PAGE */
-
-/* SERVICES */
-
-
 
