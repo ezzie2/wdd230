@@ -9,7 +9,8 @@
             "history": "Announced Oct 6 2012",
             "ordinance schedule": "n/a",
             "session schedule": "n/a",
-            "temple closure": "07/28/22-07/29/22; 08/01/22-08/15/22; 10/01/22; 12/24/22; 12/31/22"
+            "temple closure": "07/28/22-07/29/22; 08/01/22-08/15/22; 10/01/22; 12/24/22; 12/31/22",
+            "image": "image/arequipa.webp"
         } ,
 
         {
@@ -21,7 +22,8 @@
             "history": "Announced August 30, 1996",
             "ordinance schedule": "n/a",
             "session schedule": "n/a",
-            "temple closure": "2022 closures: 10/01/22; 10/10/22-10/24/22; 11/23/22-11/24/22; 12/23-12/24/22; 12/31/22"
+            "temple closure": "2022 closures: 10/01/22; 10/10/22-10/24/22; 11/23/22-11/24/22; 12/23-12/24/22; 12/31/22",
+            "image": "image/billings.webp"
         } ,
 
         {
@@ -33,7 +35,8 @@
             "history": "Announced Feb 2, 1900",
             "ordinance schedule": "n/a",
             "session schedule": "n/a",
-            "temple closure": "2022 Closures: 07/23/22; 09/19/22-10/03/22; 11/23/22-11/24/22; 12/23/22-12/24/22; 12/31/22"
+            "temple closure": "2022 Closures: 07/23/22; 09/19/22-10/03/22; 11/23/22-11/24/22; 12/23/22-12/24/22; 12/31/22",
+            "image": "image/bountiful.webp"
         } ,
 
         {
@@ -45,7 +48,8 @@
             "history": "Announced March 1, 1975",
             "ordinance schedule": "n/a",
             "session schedule": "n/a",
-            "temple closure": "2022 Closures: 08/01/22-08/15/22; 9/07/22; 10/01/22; 12/24/22; 12/31/22"
+            "temple closure": "2022 Closures: 08/01/22-08/15/22; 9/07/22; 10/01/22; 12/24/22; 12/31/22",
+            "image": "images/sao.webp"
         } 
     ]
 }
